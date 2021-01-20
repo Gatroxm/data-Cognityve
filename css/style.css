@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #FFFFFF;
 }
 .circulo {
     width: 40px;
@@ -106,7 +106,7 @@ small {
     opacity: 1;
 }
 .title-section-te-permite{
-    font: normal normal bold 20px/20px Raleway;
+    font: normal normal bold 18px/18px Raleway;
 }
 .title-section-te-permite,
  .section-te-permite p{
@@ -129,5 +129,49 @@ p {
     opacity: 1;
 }
 .footer {
-    background-color: #fff;
+    background-color: #F8F8F8;
+}
+.img-logo {
+    max-width: 190px;
+    margin-top: -28px;
+    margin-left: 20px;
+}
+.data-inicio {
+    background-image: url(../img/Background.png);
+    padding-bottom: 5rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img-app {
+    max-width: 250px;
+}
+.img-permite {
+    margin: 0 auto 1rem;
+    display: block;
+    height: 147px;
+}
+#myChart {
+    width: 500px !important;
+    height: 500px !important;
+    margin: 3rem auto;
+}
+ul {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    font: normal normal bold 16px/16px Raleway;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+li.red {
+    color: #F7324E;
+}
+li.blue {
+    color: #000030;
+}
+.img-logo-footer {
+    max-width: 180px;
 }
