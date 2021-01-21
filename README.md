@@ -1,1 +1,1 @@
-# LAnding Data Cognityve
+# Landing Data Cognityve
