@@ -142,6 +142,7 @@ p {
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
+    position: relative;
 }
 .img-app {
     max-width: 250px;
@@ -174,4 +175,122 @@ li.blue {
 }
 .img-logo-footer {
     max-width: 180px;
+}
+p.font- {
+    font-size: 42px !important;
+    line-height: 42px !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 300;
+}
+p.font- span {
+    font-weight: bold !important;
+}
+.img-absolute {
+    position: absolute;
+}
+.img1 {
+    right: 25%;
+}
+.img2 {
+    right: 0;
+    top: 100px;
+}
+.img3 {
+    right: 8%;
+    top: 171px;
+}
+.img4 {
+    width: 100px;
+    left: 95px;
+    top: 350px;
+}
+.img5 {
+    width: 12px;
+    left: 250px;
+    bottom: 70px;
+}
+.img6 {
+    left: 250px;
+    width: 12px;
+    bottom: 35px;
+}
+.img7 {
+    left: 250px;
+    width: 12px;
+    bottom: 0px;
+}
+.img8 {
+    left: 254px;
+    bottom: -45px;
+}
+.img9 {
+    right: 0;
+    bottom: 180px;
+    width: 80px;
+}
+.img10 {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+}
+.img11 {
+    right: 60px;
+    bottom: 10px;
+}
+.img12 {
+    right: 310px;
+    top: 130px;
+    width: 8px;
+}
+.img13 {
+    left: 297px;
+    top: 250px;
+}
+.img14 {
+    top: 250px;
+    left: 48%;
+    width: 80px;
+}
+.img15 {
+    left: 100px;
+}
+.img16 {
+    left: 30%;
+}
+.img17 {
+    right: 300px;
+    width: 150px;
+}
+span.scroll-top {
+    position: fixed;
+    z-index: 100;
+    bottom: 120px;
+    transform: rotate(-90deg);
+    color: #000030;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+span.scroll-top::before {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #000003;
+    position: absolute;
+    bottom: 11px;
+    left: -55px;
+}
+@media (max-width: 750px){
+    .img-absolute {
+        display: none;
+    }
+    .content {
+        width: 100%;
+        height: auto;
+    }
+    .section-form h1, .section-form h6 {
+        color: #000003;
+    }
 }
